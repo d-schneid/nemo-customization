@@ -1,6 +1,6 @@
-I try with efa-enabled and not efa-enabled container: used-container=nemo_efa_2502 | nemo_2502
+I try with efa-enabled and not efa-enabled container: nemo_efa_2502
 
-**Command:** `srun --ntasks-per-node=1 --gres=gpu:1 --mem-per-gpu=100G --container-name=used-container --container-mounts=/shared:/shared python /shared/home/$USER/customization_simple/train.py`
+**Command:** `srun --ntasks-per-node=1 --gres=gpu:1 --mem-per-gpu=100G --container-name=nemo_efa_2502 --container-mounts=/shared:/shared python /shared/home/$USER/customization_simple/train.py`
 
 **Error:**
 
