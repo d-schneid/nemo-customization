@@ -6,7 +6,7 @@ I try with efa-enabled and not efa-enabled container: used-container=nemo_efa_25
 
 **Error with used-container=nemo_2502:**
 
-![Screenshot 2025-04-28 at 13 16 52](https://github.com/user-attachments/assets/26458bc6-56e1-4703-9f07-d3e91c1fd622)
+![Screenshot 2025-04-28 at 15 26 09](https://github.com/user-attachments/assets/435049a6-e201-46d3-8e83-ae0f43716b3b)
 
 **Error with used-container=nemo_efa_2502:**
 
