@@ -8,7 +8,7 @@ I try with efa-enabled container: nemo_efa_2502
 
 `srun --ntasks-per-node=8 --gres=gpu:8 --mem-per-gpu=100G --container-name=nemo_efa_2502 --container-mounts=/shared:/shared python /shared/home/$USER/customization_simple/train.py`
 
-**Error:**
+**Error for multi-GPU command:**
 
 ![Screenshot 2025-04-28 at 15 54 56](https://github.com/user-attachments/assets/97cd91de-0cd5-4eea-b1c4-d75722566948)
 ![Screenshot 2025-04-28 at 15 55 18](https://github.com/user-attachments/assets/92f4fa28-501a-48c5-ab9e-b50ce2769090)
