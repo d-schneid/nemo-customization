@@ -15,3 +15,10 @@ I try with efa-enabled and not efa-enabled container: used-container=nemo_efa_25
 **Previously Encountered Error:**
 
 ![image](https://github.com/user-attachments/assets/93dff142-f2b0-494e-a0bc-57039589a008)
+
+**Hardware:**
+
+![Screenshot 2025-04-28 at 12 39 03](https://github.com/user-attachments/assets/aaf98fed-91d6-47c3-872a-ca8db9a65bd5)
+
+
+![Screenshot 2025-04-28 at 12 52 59](https://github.com/user-attachments/assets/e51de9a1-2eb1-4a1a-aeac-2a46c1657d97)
