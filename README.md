@@ -2,19 +2,10 @@ I try with efa-enabled and not efa-enabled container: used-container=nemo_efa_25
 
 **Command:** `srun --ntasks-per-node=1 --gres=gpu:1 --mem-per-gpu=100G --container-name=used-container --container-mounts=/shared:/shared python /shared/home/$USER/customization_simple/train.py`
 
-**Different errors depending on used-container:**
+**Error:**
 
-**Error with used-container=nemo_2502:**
-
-![Screenshot 2025-04-28 at 15 26 09](https://github.com/user-attachments/assets/435049a6-e201-46d3-8e83-ae0f43716b3b)
-
-**Error with used-container=nemo_efa_2502:**
-
-![Screenshot 2025-04-28 at 13 28 35](https://github.com/user-attachments/assets/6b9e7171-f718-4298-beb2-c5bf2c5f5be2)
-
-**Previously Encountered Error:**
-
-![image](https://github.com/user-attachments/assets/93dff142-f2b0-494e-a0bc-57039589a008)
+![Screenshot 2025-04-28 at 15 54 56](https://github.com/user-attachments/assets/97cd91de-0cd5-4eea-b1c4-d75722566948)
+![Screenshot 2025-04-28 at 15 55 18](https://github.com/user-attachments/assets/92f4fa28-501a-48c5-ab9e-b50ce2769090)
 
 **Hardware:**
 
