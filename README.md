@@ -9,7 +9,6 @@ I try with efa-enabled and not efa-enabled container: used-container=nemo_efa_25
 
 **Hardware:**
 
-![Screenshot 2025-04-28 at 12 39 03](https://github.com/user-attachments/assets/aaf98fed-91d6-47c3-872a-ca8db9a65bd5)
+![Screenshot 2025-04-28 at 15 59 31](https://github.com/user-attachments/assets/2935cb9e-927d-4b7b-a12f-627070af247c)
 
-
-![Screenshot 2025-04-28 at 12 52 59](https://github.com/user-attachments/assets/e51de9a1-2eb1-4a1a-aeac-2a46c1657d97)
+![Screenshot 2025-04-28 at 16 00 30](https://github.com/user-attachments/assets/1473bf77-d0a1-4bfb-83da-4bb0788a766a)
