@@ -1,6 +1,12 @@
-I try with efa-enabled container: nemo_efa_2502
+**Run training:**
 
-**Command does not work with** `pipeline_model_parallel_size > 2`:
+The training script `train.py` is contained in the `structure_aware_customization` directory.
+
+---
+
+**Error with** `pipeline_model_parallel_size > 2`:
+
+I try with efa-enabled container: nemo_efa_2502
 
 `srun --ntasks-per-node=8 --gres=gpu:8 --mem-per-gpu=100G --container-name=nemo_efa_2502 --container-mounts=/shared:/shared python /shared/home/$USER/customization_simple/train.py`
 
