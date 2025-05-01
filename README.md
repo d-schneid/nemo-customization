@@ -1,6 +1,6 @@
 I try with efa-enabled container: nemo_efa_2502
 
-**Command does not work with** `pipeline_model_parallel_size=2`:
+**Command does not work with** `pipeline_model_parallel_size > 2`:
 
 `srun --ntasks-per-node=8 --gres=gpu:8 --mem-per-gpu=100G --container-name=nemo_efa_2502 --container-mounts=/shared:/shared python /shared/home/$USER/customization_simple/train.py`
 
