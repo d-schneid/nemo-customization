@@ -4,7 +4,7 @@ The training script `train.py` is contained in the `structure_aware_customizatio
 
 ---
 
-**Error with** `pipeline_model_parallel_size > 2`:
+**Error with** `pipeline_model_parallel_size >= 2`:
 
 I try with efa-enabled container: nemo_efa_2502
 
